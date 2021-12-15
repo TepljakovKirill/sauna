@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'NotoSans';
+	src: url('../fonts/NotoSans/NotoSans-Regular.woff2') format('woff2'),
+		url('../fonts/NotoSans/NotoSans-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProstoOne';
+	src: url('../fonts/ProstoOne/ProstoOne-Regular.woff2') format('woff2'),
+		url('../fonts/ProstoOne/ProstoOne-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
