@@ -1,0 +1,104 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header__content {
+    padding: 25px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__contact {
+    flex-direction: column;
+}
+
+.header__nav-item:not(:last-child) {
+    margin-right: 64px;
+}
+
+.header__nav-link {
+    font-size: 16px;
+    padding-bottom: 3px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: var(--white-color);
+    position: relative;
+}
+
+.header__nav-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: var(--white-color);
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.header__nav-link:hover:before {
+   opacity: 1;
+   transition: opacity 0.2s ease-in;
+}
+
+.contact__phone-number {
+    padding-left: 22px;
+    font-size: 16px;
+}
+
+.header__contact-phone {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.header__contact-phone::before {
+    content: "";
+    width: 17.03px;
+    height: 16.67px;
+    top: 2px;
+    background: url(../../img/phone.png) left center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.contact__phone-button {
+    font-size: 16px;
+    color: var(--white-color);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header__contact-button {
+    padding: 9px 85px 10px 40px;
+    color: var(--white-color);
+    background-color: var(--orange-color);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease-in;
+}
+
+.header__contact-button:hover {
+    background-color: #ffa557;
+    transition: background-color 0.3s ease-in;
+}
+
+.header__contact-button::after {
+    content: "";
+    width: 29px;
+    height: 8.75px;
+    top: 14px;
+    right: 43px;
+    background: url(../../img/button-arrow.png) center;
+    background-repeat: no-repeat;
+    position: absolute;
+
+}
