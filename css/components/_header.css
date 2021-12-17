@@ -69,6 +69,7 @@
 
 .contact__phone-button {
     font-size: 16px;
+    font-weight: 500;
     color: var(--white-color);
     background-color: transparent;
     border: none;

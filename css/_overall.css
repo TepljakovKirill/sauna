@@ -12,3 +12,42 @@
 	display: flex;
 }
 
+.button {
+	width: 422px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 170%;
+	cursor: pointer;
+	position: relative;
+}
+
+.button::before {
+	content: "";
+    width: 29px;
+    height: 8.75px;
+    top: 22px;
+    right: 44px;
+    background: url(../../img/button-arrow.png) center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.button-green {
+	color: var(--white-color);
+	background-color: var(--green-color);
+	transition: background-color 0.3s ease-in;
+}
+
+.button-white {
+	color: var(--green-color);
+	background-color: var(--white-color);
+	transition: background-color 0.3s ease-in;
+}
+
+.button-green:hover {
+	background-color: #95af57;
+	transition: background-color 0.3s ease-in;
+}
+

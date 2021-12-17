@@ -7,3 +7,80 @@
     height: 100vh;
     /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
 }
+
+.bunner__container {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14.7vmax;
+}
+
+.bunner-title {
+    max-width: 667px;
+    font-family: 'ProstoOne', sans-serif;
+    font-size: 70px;
+    line-height: 86px;
+    color: var(--white-color);
+}
+
+.bunner-address {
+    margin-top: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 27px;
+    position: relative;
+}
+
+.bunner-address-wrap::before {
+    content: "";
+    background: url(../../img/marker.png) left center;
+    width: 15px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.bunner-time-work {
+    margin-top: 29px;
+}
+
+.bunner-price {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.bunner-time-work,
+.bunner-price {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.font-weight {
+    font-weight: 600;
+}
+
+.social__block {
+    flex-direction: column;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--green-color);
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in;
+}
+
+.social-icon:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.social-icon:hover {
+	background-color: #95af57;
+	transition: background-color 0.3s ease-in;
+}
+
+
