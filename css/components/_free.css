@@ -1,0 +1,79 @@
+.container__free {
+    margin-top: 7.6vmax;
+    width: 100%;
+    padding: 0;
+    height: 38.6vmax;
+    background-color: var(--green-color);
+    border-radius: 5px;
+}
+
+.free-img {
+    width: 51%;
+    height: 38.6vmax;
+}
+
+.free__time {
+    width: 49%;
+}
+
+.free__time-title {
+    margin-top: 4vmax;
+    margin-bottom: 1.2vmax;
+    font-size: 28px;
+    font-family: 'ProstoOne', sans-serif;
+    line-height: 35px;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.free__time-form {
+    width: 31vmax;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.free__time-field {
+    margin: 15px 0 5px 5px;
+    padding-top: 10px;
+    background-color: transparent; 
+    color: var(--white-color);
+    border: none;
+    border-bottom: 1px solid var(--white-color);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.free__time-field::placeholder {
+    color: var(--white-color);
+}
+
+.checkbox {
+    align-items: baseline;
+    margin-top: 2.3vmax;
+    margin-bottom: 3vmax;
+}
+
+.free__time-checkbox {
+  margin-right: 10px;
+}
+
+.checkbox-title {
+    font-size: 14px;
+    line-height: 19.07px;
+    color: var(--white-color);
+}
+
+.free__time-form button::before {
+    content: "";
+    width: 29px;
+    height: 8.75px;
+    top: 22px;
+    right: 110px;
+    background: url(../../img/button-arrow-green.png) center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.free__time-form button:hover {
+    background-color: #dee6ca;
+}
